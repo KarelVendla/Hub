@@ -14,8 +14,9 @@
 Route::get('/', function () {
     return view('app');
 });
-
+/*
 Route::get('/', 'ChatController@index');
 Route::post('/', 'ChatController@join');
 Route::get('chat', 'ChatController@chat')->name('chat');
 Route::post('logout', 'ChatController@logout')->name('logout');
+*/
