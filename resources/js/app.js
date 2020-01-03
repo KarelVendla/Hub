@@ -17,7 +17,7 @@ Vue.use(VueRouter);
 Vue.component('MainComponent', require('./components/App.vue').default);
 Vue.component('ChatComponent', require('./components/Chat.vue'));
 Vue.component('LoginComponent', require('./components/Login.vue'));
-Vue.component('LoginComponent', require('./components/Register.vue'));
+Vue.component('RegisterComponent', require('./components/Register.vue'));
 
 const app = new Vue({
     el: '#app',
